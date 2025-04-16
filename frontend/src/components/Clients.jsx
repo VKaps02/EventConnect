@@ -1,13 +1,13 @@
 import { motion } from "framer-motion";
 
 const clients = [
-  { name: "Ticketmaster", logo: "../src/assets/ticketmaster.svg" },
-  { name: "Eventbrite", logo: "../src/assets/eventbrite.svg" },
-  { name: "Live Nation", logo: "../src/assets/livenation.svg" },
-  { name: "Red Bull", logo: "../src/assets/redbull.svg" },
-  { name: "Coachella", logo: "../src/assets/coachella.svg" },
-  { name: "Ultra Music Festival", logo: "../src/assets/umf.svg" },
-  { name: "Tomorrowland", logo: "../src/assets/tomorrowland.svg" },
+  { name: "Ticketmaster", logo: "../assets/ticketmaster.svg" },
+  { name: "Eventbrite", logo: "../assets/eventbrite.svg" },
+  { name: "Live Nation", logo: "../assets/livenation.svg" },
+  { name: "Red Bull", logo: "../assets/redbull.svg" },
+  { name: "Coachella", logo: "../assets/coachella.svg" },
+  { name: "Ultra Music Festival", logo: "../assets/umf.svg" },
+  { name: "Tomorrowland", logo: "../assets/tomorrowland.svg" },
 ];
 
 export default function Clients() {

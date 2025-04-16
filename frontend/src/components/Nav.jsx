@@ -83,7 +83,7 @@ export default function Nav() {
         {/* Logo */}
         <div className="flex items-center space-x-4">
           <img
-            src="../src/assets/logo.jpeg"
+            src="../assets/logo.jpeg"
             alt="EventConnect"
             className="h-12 w-auto"
           />

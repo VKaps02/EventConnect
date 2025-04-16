@@ -19,7 +19,7 @@ const Hero = () => {
           preload="metadata"
           className="absolute w-full h-full object-cover z-0"
         >
-          <source src="../src/assets/home_hero.mp4" type="video/mp4" />
+          <source src="../assets/home_hero.mp4" type="video/mp4" />
         </video>
 
         {/* Improved Gradient Overlay */}
