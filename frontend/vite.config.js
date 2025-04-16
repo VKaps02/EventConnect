@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   server: {
     proxy: {
-      "/api": "http://localhost:5000", // Or your backend port
+      "/api": "https://eventconnect-woc3.onrender.com", // Or your backend port
     },
   },
 });
