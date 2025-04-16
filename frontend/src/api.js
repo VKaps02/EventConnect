@@ -2,8 +2,8 @@ import axios from "axios";
 import { auth } from "./firebaseConfig";
 import { onAuthStateChanged } from "firebase/auth";
 
-const API_URL = "http://localhost:5000/api/events";
-const API_URL_BOOKING = "http://localhost:5000/api/bookings";
+const API_URL = "https://eventconnect-woc3.onrender.com/api/events";
+const API_URL_BOOKING = "https://eventconnect-woc3.onrender.com/api/bookings";
 
 export const getCurrentUser = () =>
   new Promise((resolve) => {

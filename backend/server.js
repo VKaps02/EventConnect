@@ -5,6 +5,17 @@ import dotenv from "dotenv";
 import eventRoutes from "./routes/eventRoutes.js";
 import bookingRoutes from "./routes/bookingRoutes.js";
 import userRoutes from "./routes/userRoutes.js";
+import cors from "cors";
+
+const allowedOrigins = ["https://event-connect-one.vercel.app"];
+
+app.use(
+  cors({
+    origin: allowedOrigins,
+    credentials: true,
+  })
+);
+
 // import paymentRoutes from "./routes/paymentRoutes.js";
 
 dotenv.config();
